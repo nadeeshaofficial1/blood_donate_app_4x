@@ -2,7 +2,7 @@ import 'package:auth_firebase/auth/auth_service.dart';
 import 'package:auth_firebase/auth/login_screen.dart';
 import 'package:auth_firebase/widgets/button.dart';
 import 'package:flutter/material.dart';
-import 'blood_request_form.dart'; // Import the new form screen
+import 'blood_request_form.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -39,7 +39,7 @@ class HomeScreen extends StatelessWidget {
               leading: Icon(Icons.person, color: Colors.redAccent),
               title: const Text("Profile"),
               onTap: () {
-                // Navigate to profile screen
+                
               },
             ),
             ListTile(
@@ -56,7 +56,7 @@ class HomeScreen extends StatelessWidget {
               leading: Icon(Icons.history, color: Colors.redAccent),
               title: const Text("Donation History"),
               onTap: () {
-                // Navigate to donation history screen
+                
               },
             ),
             ListTile(
@@ -96,7 +96,7 @@ class HomeScreen extends StatelessWidget {
                 const SizedBox(height: 20),
                 const CircleAvatar(
                   radius: 50,
-                  backgroundImage: AssetImage('assets/blood_donor_logo.png'), // Ensure you have this asset
+                  backgroundImage: AssetImage('assets/blood_donor_logo.png'), 
                 ),
                 const SizedBox(height: 20),
                 CustomButton(
@@ -110,7 +110,7 @@ class HomeScreen extends StatelessWidget {
                 CustomButton(
                   label: "View Donors",
                   onPressed: () {
-                    // Navigate to the donors list screen
+                    
                   },
                 ),
                 const SizedBox(height: 20),
